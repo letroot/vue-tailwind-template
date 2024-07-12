@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-LightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-RegularItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-SemiboldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-Light.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/sf-font/SFProDisplay-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+  }
+}
